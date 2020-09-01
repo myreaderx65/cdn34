@@ -1,0 +1,1979 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" id="typepad-standard" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+	<!-- head-common -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="http://www.typepad.com/" />
+	<meta name="keywords" content="data mining, text mining, datamining, textmining, social media, socialmedia, visualization, data visualization, dataviz, data viz" />
+	<meta name="description" content="Commentary on text mining, data mining, social media and data visualization." />
+    <link rel="canonical" href="https://datamining.typepad.com/data_mining/" />
+
+
+
+        <link rel="stylesheet" href="https://datamining.typepad.com/data_mining/styles.css?v=6" type="text/css" media="screen" />
+        <link rel="stylesheet" href="https://static.typepad.com/.shared/themes/common/print.css" type="text/css" media="print" />
+
+<link rel="stylesheet" href="https://static.typepad.com/.shared/css/featherlight-gallery.css">
+
+<!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+	<link rel="alternate" type="application/atom+xml" title="Posts on 'Data Mining: Text Mining, Visualization and Social Media' (Atom)" href="https://datamining.typepad.com/data_mining/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Data Mining: Text Mining, Visualization and Social Media' (RSS 1.0)" href="https://datamining.typepad.com/data_mining/index.rdf" />
+	<link rel="alternate" type="application/rss+xml" title="Posts on 'Data Mining: Text Mining, Visualization and Social Media' (RSS 2.0)" href="https://datamining.typepad.com/data_mining/rss.xml" />
+	<script type="text/javascript">
+		var TPApp = {};
+		TPApp.app_uri = "https://www.typepad.com/";
+	</script>
+	<script type="text/javascript" src="https://static.typepad.com/.shared/js/yui/yahoo-dom-event.js,/js/app/thumbnail-gallery-min.js,/js/app/flyouts-min.js"></script>
+
+
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-225723-36', 'auto', {'name': 'Typepad'}, {'allowLinker': true} );  // Separate tracker for Typepad.
+ga('Typepad.require', 'linker');
+ga('Typepad.linker:autoLink', ['none']);
+ga('Typepad.set', 'dimension1', '6a00d8341c994053ef00d8341cd27f53ef');
+ga('Typepad.set', 'dimension2', 'index');
+ga('Typepad.send', 'pageview');
+</script>
+
+
+
+<meta property="og:title" content="Data Mining: Text Mining, Visualization and Social Media" />
+<meta property="og:site_name" content="Data Mining: Text Mining, Visualization and Social Media" />
+<meta property="og:type" content="blog" />
+<meta property="og:url" content="https://datamining.typepad.com/data_mining/" />
+<meta property="og:description" content="" />
+<meta property="fb:admins" content="" />
+<meta property="og:image" content="https://up0.typepad.com/6a00d8341c994053ef00e552991ce08834-220si" />
+
+
+
+	<title>Data Mining: Text Mining, Visualization and Social Media</title>
+	<link rel="openid.server" href="https://www.typepad.com/services/openid/server" />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.typepad.com/services/rsd/6a00d8341c994053ef00d8341cd27f53ef" />
+			<link rel="meta" type="application/rdf+xml" title="FOAF" href="https://datamining.typepad.com/foaf.rdf" />
+	
+        
+</head>
+
+
+
+<body class="layout-three-column index">
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+    FB.init( { apiKey: 'a279adbe87e2b3c505e777af99a5260d', xfbml: true, version: 'v2.8' } );
+};
+( function() {
+    var e = document.createElement( 'script' ); e.async = true;
+    e.src = document.location.protocol + '//connect.facebook.net/en_US/sdk.js';
+    document.getElementById( 'fb-root' ).appendChild( e );
+} )();
+</script>
+
+	
+	<div id="container">
+		<div id="container-inner" class="pkg">
+			
+
+
+<a id="home"></a>
+   
+
+<!-- banner -->
+<div id="banner">
+	<div id="banner-inner" class="pkg">
+		
+		<h1 id="banner-header"><a href="https://datamining.typepad.com/data_mining/" accesskey="1">Data Mining: Text Mining, Visualization and Social Media</a></h1>
+		<h2 id="banner-description">
+			
+		</h2>
+	</div>
+</div>
+
+
+
+
+
+
+			<div id="pagebody">
+				<div id="pagebody-inner" class="pkg">
+					<div id="alpha">
+						<div id="alpha-inner" class="pkg">
+							<!-- sidebar1 -->
+
+
+<!-- user photo -->
+    <div class="module-photo module">
+
+
+     
+
+
+<div class="module-content">
+
+
+<img src="https://datamining.typepad.com/.a/6a00d8341c994053ef00e552991ce08834-150wi" alt="My Photo" class="img-responsive" />
+
+
+</div></div>
+
+<!-- custom_code.tt --><div class="module-custom_html module">
+    <div class="module-content">
+<a href="https://about.me/matthewhurst">Check out my about.me profile!</a>
+    </div>
+</div>
+<!-- end custom_code.tt -->
+<div class="module-email module">
+	<div class="module-content">
+		<script type="text/javascript">
+<!--
+document.write('<a href="ma' + 'ilto:&#109;&#97;&#116;&#116;&#104;&#101;&#119;&#104;&#117;&#114;&#115;&#116;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">Email Me</a>');
+// -->
+</script>
+
+	</div>
+</div>
+<!-- list_inlcude.tt  -->
+<div id="galleries" class="module-typelist module">
+<h2 class="module-header">Galleries</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="A gallery of images visualizing the blogosphere." href="https://datamining.typepad.com/gallery/blog-map-gallery.html">Mapping The Blogosphere</a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="gis_data" class="module-typelist module">
+<h2 class="module-header">GIS Data</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="https://www.neighbourhood.statistics.gov.uk/dissemination/Info.do?page=SOABoundaries.htm">(UK) Neighbourhood Data</a></li>
+							<li class="module-list-item"><a title="" href="https://www.ga.gov.au/products/servlet/controller?event=DEFINE_PRODUCTS" >Australian Data</a></li>
+							<li class="module-list-item"><a title="" href="http://www.vdstech.com/map_data.htm" >Various Country Shapefiles (VDSTechnologies)</a></li>
+							<li class="module-list-item"><a title="Lots of admin and other data." href="http://www.diva-gis.org/Data.htm" >DATA - DIVA-GIS</a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="family" class="module-typelist module">
+<h2 class="module-header">Family</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="http://mawaha.exblog.jp" >MaWaHa のピッツバーグ日記</a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<!-- list_inlcude.tt  -->
+<div id="links" class="module-typelist module">
+<h2 class="module-header">Links</h2>
+	<div class="module-content">
+		<ul class="module-list">
+							<li class="module-list-item"><a title="" href="" ><a href="http://newstex.com/" title="Contributor to: Newstex Blogs on Demand"><img src="http://newstex.com/img/banners/newstex_blue_150x15.gif" width="100" height="15" /></a></a></li>
+							<li class="module-list-item"><a title="" href="" ><a href="http://www.britishblogs.co.uk" title="British Blogs"><img src="http://img.britishblogs.co.uk/images/britishblogs_s.gif" width="80" height="15" border="0" alt="British Blogs"></a></a></li>
+							<li class="module-list-item"><a title="" href="" ><a href="http://featured.typepad.com/blogs/2006/09/data_mining.html"><img src="https://datamining.typepad.com/images/featured.gif"></a></a></li>
+							<li class="module-list-item"><a title="" href="" ><a href="http://www.blogburst.com"><img style="border:none;" src="http://www.blogburst.com/Resources/Images/blogburst_80x15.gif" width="80" height="15" alt="BlogBurst.com"></a></a></li>
+							<li class="module-list-item"><a title="" href="" ><!--WEBBOT bot="Script" startspan PREVIEW="Site Meter" --><script type="text/javascript" language="JavaScript">var site='s14datamining'</script><script type="text/javascript" language="JavaScript1.2" src="https://www.sitemeter.com/js/counter.js?site=s14datamining"></script><noscript><a href="http://s14.sitemeter.com/stats.asp?site=s14datamining" target="_top"><img src="http://s14.sitemeter.com/meter.asp?site=s14datamining" alt="Site Meter" border="0"/></a></noscript><!-- Copyright (c)2005 Site Meter --><!--WEBBOT bot="Script" Endspan --></a></li>
+							<li class="module-list-item"><a title="" href="" ><a href="http://www.scottishblogs.co.uk"><img src="https://datamining.typepad.com/images/sblogs.gif"></a></a></li>
+							<li class="module-list-item"><a title="" href="" ><a href="https://us.rd.yahoo.com/my/atm/MatthewHurst/DataMining/*http://add.my.yahoo.com/rss?url=http%3A//datamining.typepad.com/data_mining/index.rdf"><img src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo6.gif" width="89" height="33" border="0" align="middle" alt="Add to My Yahoo!"></a></a></li>
+							<li class="module-list-item"><a title="" href="" ><a href="http://www.bloglines.com/sub/http://datamining.typepad.com/data_mining">
+<img src="http://www.bloglines.com/images/sub_modern5.gif" border="0" alt="Subscribe with Bloglines" />
+</a></a></li>
+							<li class="module-list-item"><a title="" href="" ><!--WEBBOT bot="Script" startspan PREVIEW="Site Meter" --><script type="text/javascript" language="JavaScript">var site="s14datamining"</script><script type="text/javascript" language="JavaScript1.2" src="https://www.sitemeter.com/js/counter.js?site=s14datamining"></script><noscript><a href="http://s14.sitemeter.com/stats.asp?site=s14datamining" target="_top"><img src="http://s14.sitemeter.com/meter.asp?site=s14datamining" alt="Site Meter" border="0"/></a></noscript><!-- Copyright (c)2005 Site Meter --><!--WEBBOT bot="Script" Endspan --></a></li>
+			
+		</ul><!-- last /ul -->
+	</div>
+</div>
+<!-- end list_include.tt -->
+
+<div class="module-widget module" id="widget-ShareThis_ShareThis">
+	<div class="module-content">
+    	<script type="text/javascript">var  _sttoolbar = {}</script><script src="https://ws.sharethis.com/widget/sttypepad.js" type="text/javascript"></script><script type="text/javascript">stTypePad.init('http://w.sharethis.com/widget/?tabs=web%2Cemail&charset=utf-8&style=default&publisher=dcb80b13-4d47-47a6-a5ba-8b5edc5059a0');</script>
+	</div>
+</div>
+
+
+						</div>
+					</div>
+					<div id="beta">
+						<div id="beta-inner" class="pkg">
+							
+
+
+
+
+
+<!-- CAROUSEL POSTS -->
+
+
+<!-- entry list sticky -->
+
+
+<!-- REGULAR POSTS -->
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">March 27, 2016</h2>
+
+	<div class="entry-category-ai entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01b7c82a8d90970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html">AI's not AI</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>There has been a lot of commentary recently on issues relating to an experimental chat bot that Microsoft has (or had) launched named (after, perhaps, a river in Scotland) Tay. After a brief existence online, the bot was removed due to behaviours perceived as offensive which it was persuaded to engage in. Peter Lee of MSR has <a href="https://blogs.microsoft.com/blog/2016/03/25/learning-tays-introduction/">this</a> to say about it. While there is much to learn from what transpired, the thing that irks me the most is the continued use of the term Artificial Intelligence to describe these systems - Lee actually calls it an &#39;artificial intelligence application&#39;. Experimenting with these interactive agents is, no doubt, a useful activity that will teach us much about how humans will interact with actual AI entities in the future, but calling a chat bot of this nature an artificial intelligence application is like calling the icing on a cake, a cake. Communicating with humans is essential to artificial intelligence; communicating as a peer in human language with not much else going on &#39;upstairs&#39; is not, however, a demonstration of artificial intelligence.</p>
+<fieldset class="zemanta-related"><legend class="zemanta-related-title">Related articles</legend>
+<div class="zemanta-article-ul zemanta-article-ul-image" style="margin: 0px; padding: 0px; overflow: hidden;">
+<div class="zemanta-article-ul-li-image zemanta-article-ul-li" style="background: none; list-style: none; margin: 2px 10px 10px 2px; padding: 0px; width: 84px; text-align: left; font-size: 11px; vertical-align: top; float: left; display: block;"><a href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html" style="padding: 5px 2px 0px; height: 80px; line-height: 12pt; overflow: hidden; text-decoration: none; display: block;" target="_blank">How the Tech Media Keeps Artificial Intelligence at a Distance</a></div>
+<div class="zemanta-article-ul-li-image zemanta-article-ul-li" style="background: none; list-style: none; margin: 2px 10px 10px 2px; padding: 0px; width: 84px; text-align: left; font-size: 11px; vertical-align: top; float: left; display: block;"><a href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html" style="padding: 5px 2px 0px; height: 80px; line-height: 12pt; overflow: hidden; text-decoration: none; display: block;" target="_blank">The Economist gets in on the AI Fluff</a></div>
+<div class="zemanta-article-ul-li-image zemanta-article-ul-li" style="background: none; list-style: none; margin: 2px 10px 10px 2px; padding: 0px; width: 84px; text-align: left; font-size: 11px; vertical-align: top; float: left; display: block;"><a href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html" style="padding: 5px 2px 0px; height: 80px; line-height: 12pt; overflow: hidden; text-decoration: none; display: block;" target="_blank">AI, Artificial Birds and Aeroplanes</a></div>
+</div>
+</fieldset>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">March 27, 2016 in <a href="https://datamining.typepad.com/data_mining/ai/">AI</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html#comments">Comments (1)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+    <h2 class="date-header">October 30, 2015</h2>
+
+	<div class="entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01bb0889393f970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html">Agile Web Mining at Bing</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>The web search industry is making great progress in transitioning from&#0160;building tools for finding pages and sites to&#0160;building tools&#0160;that leverage and surface facts and knowledge. The local search space - where I work in Bing - is founded on structured knowledge - the entity data that represents businesses and other things that necessarily have a location, and is a core piece of the knowledge space required for this future.</p>
+<p>Over the past few years, my team has been working on mining the web for information about local entities. This data now&#0160;helps to power&#0160;a significant percentage of&#0160;local search&#0160;interactions in a number of countries around the world.</p>
+<p>As we have been&#0160;working on&#0160;this system, we have come to think deeply about how to build systems for web mining, but&#0160;also how to construct efficient developer workflows and how to&#0160;add&#0160;data management components to these systems to take advantage of human input when appropriate.</p>
+<p>These processes constitute what I term Agile Web Mining, the core principles of which are: optimize for developer productivity, optimize for data management and invest in low latency systems. So much of what we hear about in the industry currently revolves around very large data sets (big data) which often entail long processing times and high latency interactions. In contrast, we tend to think of our data in a different way, where the size of data is relatively small (on the order of the size of a web site), but where there are many examples of these small data sets.</p>
+<p>We are currently growing our team, and so if you are interested in learning more about Agile Web Mining, please get in touch with me.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">October 30, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html#comments">Comments (2)</a>
+                                    
+				
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">May 10, 2015</h2>
+
+	<div class="entry-category-ai entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01b8d111bd4c970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html">The Economist gets in on the AI Fluff</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>The Economist leads with an editorial and an article on <a href="https://www.economist.com/news/leaders/21650543-powerful-computers-will-reshape-humanitys-future-how-ensure-promise-outweighs" target="_self">The Dawn of Artificial Intelligence</a>.</p>
+<p>The editorial starts of with:</p>
+<blockquote>
+<p>“THE development of full artificial intelligence could spell the end of the human race,” Stephen Hawking warns. Elon Musk fears that the development of artificial intelligence, or AI, may be the biggest existential threat humanity faces. Bill Gates urges people to beware of it.</p>
+<p>Dread that the abominations people create will become their masters, or their executioners, is hardly new. But voiced by a renowned cosmologist, a Silicon Valley entrepreneur and the founder of Microsoft—hardly Luddites—and set against the vast investment in AI by big firms like Google and Microsoft, such fears have taken on new weight. With supercomputers in every pocket and robots looking down on every battlefield, just dismissing them as science fiction seems like self-deception. The question is how to worry wisely.</p>
+</blockquote>
+<p>To my knowledge, while the three titans mentioned here of undeniable intellect, it is not clear why two of them are relevant at all. I consider myself reasonably smart, but should I be quoted on my opinion of current treatments of toxoplasmosis? The argument &quot;a smart person says X, therefore we should attend&quot; is known as <a href="http://www.don-lindsay-archive.org/skeptic/arguments.html#falseauth" target="_self">the appeal to false authority</a> (i.e. a fallacious argument). Such arguments introduce another argumentative crime: the exclusion of actual authority. <a href="https://www.theguardian.com/technology/2015/jan/28/artificial-intelligence-will-not-end-human-race" target="_self">Eric Horvitz comes to mind</a>:</p>
+<blockquote>
+<p>The head of Microsoft’s main research lab has dismissed fears that artificial intelligence could pose a threat to the survival of the human race.</p>
+<p>Eric Horvitz believed that humans would not “lose control of certain kinds of intelligences”, adding: “In the end we’ll be able to get incredible benefits from machine intelligence in all realms of life, from science to education to economics to daily life.”</p>
+</blockquote>
+<p>The article then stumbles along confusing advances in machine perception and machine learning with intelligence. Predictably, the Kasparov vs Deep Blue achievement is trundled out:</p>
+<blockquote>
+<p>Yet AI is already powerful enough to make a dramatic difference to human life. It can already enhance human endeavour by complementing what people can do. Think of chess, which computers now play better than any person.</p>
+</blockquote>
+<p>Suggesting that any computer can now beat all humans. Deep Blue was a singular machine which was <a href="https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)" target="_self">dismantled after the match</a>. And how does chess playing make a dramatic difference to human life?</p>
+<p>A well informed article - and one that is actually interesting to read - should lead with a concrete set of definitions regarding the components of artificial intelligence (perception, reasoning, etc.) and discuss the discrete advances in those areas. Such an article should discuss the challenges of bringing those things together in anything other than the most rudimentary ways they are combined currently. An interesting article on AI would discuss the economics that drive investments and how they dictate what areas are worked on and which aren&#39;t.</p>
+<p>In all these articles, there is a vague notion of inevitability, as if the machines themselves were selectively investing in research areas, or as if we could stand back and do nothing and this scary version of AI would emerge. It&#39;s as if the article were suggesting that landing on the moon was inevitable. The fact that humans did this and then never returned indicates that it was an incredibly intentional endeavor.</p>
+<p>&#0160;</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">May 10, 2015 in <a href="https://datamining.typepad.com/data_mining/ai/">AI</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">May 09, 2015</h2>
+
+	<div class="entry-category-ai entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01b8d1113064970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html">AI, Artificial Birds and Aeroplanes</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>The Turing Test for artificial intelligence is a reasonably well understood idea: if, through a written form of communication, a machine can convince a human that it too is a human, then it passes the test. The elegance of this&#0160;approach (which I believe is its primary attraction) is that it avoids any troublesome definition of intelligence and appeals to an innate ability&#0160;in humans to detect entities which are not &#39;one of us&#39;.</p>
+<p>This form of AI is the one that is generally presented in <a href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html" target="_self">entertainment</a> (films, novels, etc.).</p>
+<p>However, to an engineer, there are some problems with this as the accepted popular idea of artificial intelligence.</p>
+<p>I believe that software engineering can be evaluated in a simple measure of productivity. We either create things that make the impossible possible - going from 0 to 1, or we create things that amplify some value, generally a human&#39;s ability to do something, - going from X to nX. In other words, we enable a new thing, or we multiple our ability to do something.</p>
+<p>Turing AI, while clearly an interesting intellectual concept, is like building an artificial bird instead of building an aeroplane:</p>
+<ul>
+<li>A Turing AI can converse in natural language, but humans can&#39;t speak charts or holograms as a means to explain something.</li>
+<li>A Turing AI can read a book and appear to understand it, but it can&#39;t read a thousand research articles on cancer and find a connection between discoveries that results in a breakthrough.</li>
+<li>A Turing AI doesn&#39;t have to even be particularly intelligence&#0160;(though it probably ought to at least appear self aware, reflective, etc) and so would be potentially like making a very poor hire for your team.</li>
+</ul>
+<p>I believe that if we consider opportunities for applying &#39;AI methods&#39; to the vast corpus of data (both in natural language and in various structured forms) on the web, we will realize that there is an economic motivation (i.e. build value for users that can build a user base) that will require all the generally accepted facets of an AI (reasoning, perception, communication with humans, theory of mind, etc.) but will be nothing like a Turing AI.</p>
+<p>Rather than think of search engines - the fundamental agents that mediate the web corpus - as mechanisms to help humans find the &#39;right&#39; document - I believe it is time to change our intentions to:<em>optimize the value of the data on the internet for all mankind.</em></p>
+<p>When we achieve this, we will have built an AI, but it won&#39;t be a Turing AI and it may not even pass the Turing Test.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">May 09, 2015 in <a href="https://datamining.typepad.com/data_mining/ai/">AI</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+    <h2 class="date-header">May 06, 2015</h2>
+
+	<div class="entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01bb082a253d970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html">How to Understand Computers in Film</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>When we see an act of programming, screeds of code or other interactions with computers in movies, software engineers are likely to roll their eyes.</p>
+<ul>
+<li>When Chappie&#39;s coder has to write &#39;terabytes of code&#39;</li>
+<li>When Ford&#39;s computer guy has to &#39;write a special program&#39; to crack a password in one of the Jack Ryan movies</li>
+<li>etc.</li>
+</ul>
+<p>I rolled my eyes at these.</p>
+<p>But I also realize that these interactions are just symbols. They are place holders for &#39;someone doing some coding&#39;. If we actually saw someone doing some coding, I think we&#39;d roll our eyes for another reason.</p>
+<p>This model probably works for any exposure of any technical area in a movie from coding to cooking to sailing to farming. Rather than criticizing the creators of the movie for lack of research, it is so much easier to recognize these moments as symbolic fillers with a dramatic twist.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">May 06, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">May 04, 2015</h2>
+
+	<div class="entry-category-ai entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01b8d10e4ded970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html">How the Tech Media Keeps Artificial Intelligence at a Distance</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>In sympathy with yesterday&#39;s post about AI as presented in films, consider this recent article from the Wall Street Journal: <a href="https://www.wsj.com/article_email/artificial-intelligence-experts-are-in-high-demand-1430472782-lMyQjAxMTA1MzA2MTMwNTEyWj" target="_self">Artificial Intelligence Experts are in High Demand</a>. A list of mostly machine learning experts is produced as evidence for the topic of the article. There is an unfortunate trend being presented to the public in this space in which the term &#39;artificial intelligence&#39; is being used to draw readers with stories of real technical achievements in the space of machine learning and machine perception (recognizing a cat in a image is not an act of artificial intelligence), movies are being produced that <a href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html" target="_self">romanticize a form of unobtainable AI</a>, and the two are being tied together with stories of impending doom (<a href="http://www.huffingtonpost.com/2014/10/27/elon-musk-artificial-intelligence_n_6053804.html" target="_self">Musk</a>, <a href="https://www.bbc.com/news/technology-30290540" target="_self">Hawking</a>).</p>
+<p>All this is done with little or no investment in helping us establish what we really mean - and need - in an artificial intelligence.</p>
+<p>If artificial intelligence experts were in high demand, then linguistics, philosophers, sociologists, etc. should be very happy - not just ML peeps.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">May 04, 2015 in <a href="https://datamining.typepad.com/data_mining/ai/">AI</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">May 03, 2015</h2>
+
+	<div class="entry-category-ai entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01b8d10dd797970c">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html">How Hollywood Keeps Artificial Intelligence at a Distance</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>When something doesn&#39;t exist (like artificial intelligence) it&#39;s easy to think that there is some missing piece of magic required to bring it in to existence. There has been a growing interest in movie depictions of AI of late, and these all seem to require some sort of non-linear step to realize this technology.</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Ex_Machina_(film)" target="_self">Ex Machina</a> (which I really enjoyed) required a new sort of hard/software in the form of a jelly like substance.</li>
+<li><a href="https://en.wikipedia.org/wiki/Chappie_(film)" target="_self">Chappie</a>&#0160;(which I also liked, though I generally prefer cheese and ham combined in a sandwich) required &#39;terabytes of coding&#39; and a good amount of luck to produce its AI.</li>
+<li><a href="https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron" target="_self">Age of Ultron</a> (a film about one liners and explosions) required a magic jewel from Loki&#39;s staff no less to create its AI.</li>
+<li><a href="https://en.wikipedia.org/wiki/Transcendence_(2014_film)" target="_self">Transcendence</a> (<a href="http://www.kurzweilai.net/" target="_self">Kurzweil</a> summarized) gives up on AI and simply loads a human brain into the ether.</li>
+</ul>
+<p>The message in all of these movies is - the reason we don&#39;t have AI is that we haven&#39;t taken some non-linear step.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">May 03, 2015 in <a href="https://datamining.typepad.com/data_mining/ai/">AI</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html#comments">Comments (1)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">May 02, 2015</h2>
+
+	<div class="entry-category-ai entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01bb0827cd34970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html">Artificial Intelligence and Economics</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>There are lots of articles online of the form -&#0160;humanity has built some amazing things, so why haven&#39;t we produced an artificial intelligence? These articles (here&#39;s <a href="http://www.kurzweilai.net/the-open-mind-common-sense-project" target="_self">an example</a>) often include some discussion of a task that even a very young human can perform - e.g. look at an image and describe what objects are in it (though personally I don&#39;t believe this is an indication of intelligence).</p>
+<p>I believe that one of the key reasons that we can produce algorithms that can design super efficient jet engines, but not systems with the rudimentary common sense reasoning capabilities of a 3 year old is the economic context that drives innovation. The airline industry has an annual revenue of 700 billion dollars. No one has (yet) articulated the revenue potential of a technology that can look at a photograph and tell you what is in it.</p>
+<p>The most important (and possibly last) step in the development of artificial intelligence is to create the economic engine that will require and motivate it.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">May 02, 2015 in <a href="https://datamining.typepad.com/data_mining/ai/">AI</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+
+
+
+    <h2 class="date-header">January 03, 2015</h2>
+
+	<div class="entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01bb07d11f36970d">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html">Stamp of Approval</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>After getting a hint of this a few months ago, I&#39;ve finally tracked down an image of a stamp that will be released this year to celebrate the invention of the World Wide Web using an image I created.</p>
+<p>Here&#39;s the <a href="https://metro.co.uk/2014/12/27/new-stamps-for-2015-celebrate-kings-of-comedy-including-the-two-ronnies-and-british-inventors-5000657/" target="_self">source</a>.</p>
+<p><a class="asset-img-link" href="https://datamining.typepad.com/.a/6a00d8341c994053ef01bb07d11f65970d-pi" style="display: inline;"><img alt="Stamp" class="asset  asset-image at-xid-6a00d8341c994053ef01bb07d11f65970d img-responsive" src="https://datamining.typepad.com/.a/6a00d8341c994053ef01bb07d11f65970d-500wi" title="Stamp" /></a></p>
+<p>Think of me as you lick &#39;em.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">January 03, 2015 </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html#comments">Comments (0)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+	
+
+        
+
+
+
+    
+
+
+
+
+    <h2 class="date-header">September 26, 2014</h2>
+
+	<div class="entry-category-content entry-author-matthew_hurst entry-type-post entry" id="entry-6a00d8341c994053ef01b7c6e7d9e8970b">
+       <div class="entry-inner">
+					<h3 class="entry-header"><a href="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html">The Longform Manifesto</a></h3>
+		
+
+
+
+		<div class="entry-content">
+
+			<div class="entry-body">
+				<p>Sometimes a title for a blog posts suggests itself to me which seems so self contained that it takes real effort to actual write the post (&#39;Machine Intelligence, not Machine Learning is the Next Big Thing&#39; is another in this line). The idea behind the (or a) Longform Manifesto is as follows. I have become aware of late of the sense of deterioration that is associated with the mobile &#39;revolution&#39; and the info snacking, casual gaming and interupt driven lifestyle that it has entailed. The behaviours are perfectly illustrated in this scene from Portlandia:</p>
+<p><iframe allowfullscreen="" frameborder="0" height="281" src="https://www.youtube.com/embed/Pe-zq4bFPFU?feature=oembed" width="500"></iframe>&#0160;</p>
+<p>With a daughter who has now come of technological age (she has a cell phone) it has become important to me to remind myself what content consumption was like before this mobile mess appeared.</p>
+<p>We read books, we watched movies, we listened to music. But, of course, we haven&#39;t stopped doing that. Rather, we have started all this other stuff, and the problem is that this is influencing how we approach longform content. I find myself watching bits of movies, or listening to bits of music or reading parts of essays.</p>
+<p>The Longform Manifesto, through the definition of longform content and the discipline and commitment needed to consume it as it was meant to be consumed, helps to dillute and remove the behaviour degrading influence of mobile technology. Someone should write it.</p>
+			</div>
+			
+
+
+<!-- SIGNATURE -->
+
+
+
+
+			
+		</div>
+		<div class="entry-footer">
+			<p class="entry-footer-info">
+				
+                <span class="post-footers">September 26, 2014 in <a href="https://datamining.typepad.com/data_mining/content/">Content</a> </span> <span class="separator">|</span> <a class="permalink" href="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html">Permalink</a>
+									<span class="separator">|</span>
+                                    
+					<a class="entry-comments" href="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html#comments">Comments (1)</a>
+                                    
+				
+									<span class="separator">|</span>
+					<a class="entry-trackbacks" href="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html#trackback">TrackBack (0)</a>
+				
+			</p>
+			<!-- technorati tags -->
+
+
+			<!-- post footer links -->
+	<p class="entry-footer-share">
+		<span class="entry-footer-links-facebook_like">
+     
+     <fb:like href="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html" layout="button_count" show_faces="false"></fb:like>
+     
+</span>
+	</p>
+
+
+		</div>
+	</div>
+      </div>
+
+			<div class="pager-bottom pager-entries pager content-nav">
+		<div class="pager-inner">
+			
+			
+			<span class="pager-right">
+				<a href="https://datamining.typepad.com/data_mining/page/2/"><span class="pager-label"></span>
+					<span class="chevron">&#187;</span></a>
+			</span>
+		</div>
+	</div>
+	
+	
+
+        
+
+
+
+						</div>
+					</div>
+					<div id="gamma">
+						<div id="gamma-inner" class="pkg">
+							<!-- sidebar2 -->
+
+
+<div class="module-syndicate module">
+	<div class="module-content">
+	<a href="https://datamining.typepad.com/data_mining/atom.xml"><i class="fas fa-rss"></i> Subscribe to this blog's feed</a>
+	</div>
+</div>
+<div class="module-widget module" id="widget-Twitter_Twitter_Updates">
+	<div class="module-content">
+    	<div id="twitter_div">
+<h2 style="margin:0" class="module-header">Twitter Updates</h2>
+<ul class="module-list" id="twitter_update_list"></ul>
+<a href="https://twitter.com/matthewhurst" id="twitter-link" style="display:block;text-align:right;">follow me on Twitter</a>
+</div>
+<script type="text/javascript" src="https://twitter.com/javascripts/typepad.js"></script>
+<script type="text/javascript" src="https://twitter.com/statuses/user_timeline/matthewhurst.json?callback=twitterCallback2&amp;count=5"></script>
+	</div>
+</div><div class="module-calendar module">
+	<h2 class="module-header">March 2016</h2>
+	<div class="module-content table-responsive">
+		<table class="table" summary="Monthly calendar with links to each day's posts">
+                        <tr>
+                                                                 <th>Sun</th>
+                                                                 <th>Mon</th>
+                                                                 <th>Tue</th>
+                                                                 <th>Wed</th>
+                                                                 <th>Thu</th>
+                                                                 <th>Fri</th>
+                                                                 <th>Sat</th>
+                                
+                        </tr>
+                                                   <tr>
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td>1</td>
+                                
+                                                   
+                                        <td>2</td>
+                                
+                                                   
+                                        <td>3</td>
+                                
+                                                   
+                                        <td>4</td>
+                                
+                                                   
+                                        <td>5</td>
+                                </tr>
+                                                   <tr>
+                                        <td>6</td>
+                                
+                                                   
+                                        <td>7</td>
+                                
+                                                   
+                                        <td>8</td>
+                                
+                                                   
+                                        <td>9</td>
+                                
+                                                   
+                                        <td>10</td>
+                                
+                                                   
+                                        <td>11</td>
+                                
+                                                   
+                                        <td>12</td>
+                                </tr>
+                                                   <tr>
+                                        <td>13</td>
+                                
+                                                   
+                                        <td>14</td>
+                                
+                                                   
+                                        <td>15</td>
+                                
+                                                   
+                                        <td>16</td>
+                                
+                                                   
+                                        <td>17</td>
+                                
+                                                   
+                                        <td>18</td>
+                                
+                                                   
+                                        <td>19</td>
+                                </tr>
+                                                   <tr>
+                                        <td>20</td>
+                                
+                                                   
+                                        <td>21</td>
+                                
+                                                   
+                                        <td>22</td>
+                                
+                                                   
+                                        <td>23</td>
+                                
+                                                   
+                                        <td>24</td>
+                                
+                                                   
+                                        <td>25</td>
+                                
+                                                   
+                                        <td>26</td>
+                                </tr>
+                                                   <tr>
+                                        <td><a href="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html">27</a></td>
+                                
+                                                   
+                                        <td>28</td>
+                                
+                                                   
+                                        <td>29</td>
+                                
+                                                   
+                                        <td>30</td>
+                                
+                                                   
+                                        <td>31</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                
+                                                   
+                                        <td>&nbsp;</td>
+                                </tr>
+                        
+		</table>
+	</div>
+</div>
+	<div class="module-archives module">
+		<h2 class="module-header">Recent Posts</h2>
+		<div class="module-content">
+			<ul class="module-list">
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2016/03/ais-not-ai.html">AI's not AI</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/10/agile-web-mining-at-bing.html">Agile Web Mining at Bing</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/the-economist-gets-in-on-the-ai-fluff.html">The Economist gets in on the AI Fluff</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/ai-artificial-birds-and-aeroplanes.html">AI, Artificial Birds and Aeroplanes</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/how-to-understand-computers-in-film.html">How to Understand Computers in Film</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/how-the-tech-media-keeps-artificial-intelligence-at-a-distance.html">How the Tech Media Keeps Artificial Intelligence at a Distance</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/how-hollywood-keeps-artificial-intelligence-at-a-distance.html">How Hollywood Keeps Artificial Intelligence at a Distance</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/artificial-intelligence-and-economics.html">Artificial Intelligence and Economics</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/01/stamp-of-approval.html">Stamp of Approval</a></li>
+					
+				
+									<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2014/09/the-longform-manifesto.html">The Longform Manifesto</a></li>
+					
+				
+			</ul>
+		</div>
+	</div>
+	<div class="module-archives module">
+		<h2 class="module-header"><a href="https://datamining.typepad.com/data_mining/archives.html">Archives</a></h2>
+		<div class="module-content">
+												<ul class="module-list">
+				
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2016/03/index.html">March 2016</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/10/index.html">October 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/05/index.html">May 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2015/01/index.html">January 2015</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2014/09/index.html">September 2014</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2014/07/index.html">July 2014</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2014/05/index.html">May 2014</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2014/01/index.html">January 2014</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2013/12/index.html">December 2013</a></li>
+				
+							
+				<li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/2013/10/index.html">October 2013</a></li>
+									</ul>
+									<p class="module-more"><a href="https://datamining.typepad.com/data_mining/archives.html">More...</a></p>
+				
+				
+			
+		</div>
+	</div>
+
+<div class="module-categories module">
+	<h2 class="module-header"><a href="https://datamining.typepad.com/data_mining/archives.html">Categories</a></h2>
+	<div class="module-content">
+                   <ul class="module-list">
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/aaai2007/">aaai2007</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/advertising/">advertising</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/affect/">affect</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/ai/">AI</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/alexa/">alexa</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/aol/">aol</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/ask/">ask</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/astronomy/">astronomy</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/attenex/">attenex</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/attensa/">attensa</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/attentio/">attentio</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/bbc/">bbc</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/bing/">bing</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/blogburst/">blogburst</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/bloglines/">bloglines</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/blogosphere/">blogosphere</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/blogpulse/">blogpulse</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/blogs/">blogs</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/boards/">boards</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/boardtracker/">boardtracker</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/boingboing/">boingboing</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/books/">Books</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/browserwars/">browserWars</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/buzzlogic/">buzzlogic</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/buzzmetrics/">buzzmetrics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/calendaring/">calendaring</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/china/">china</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/clustering/">clustering</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/cocomment/">CoComment</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/colbert/">colbert</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/comments/">comments</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/computer-graphics/">computer graphics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/conferences/">Conferences</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/content/">Content</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/d8taplex/">d8taplex</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/data-engines/">data engines</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/datamining/">datamining</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/dataminingelements/">DataMiningElements</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/datasphere/">datasphere</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/dataviz/">dataviz</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/dataweb/">dataweb</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/dell/">dell</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/design/">design</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/digg/">digg</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/document_analysis/">document analysis</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/economics/">economics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/edgeio/">edgeio</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/email/">email</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/facebook/">facebook</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/farecast/">farecast</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/fastreams/">fastreams</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/featuredhyperlocalpost/">featuredhyperlocalpost</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/feedburner/">feedburner</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/film/">Film</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/findory/">findory</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/flickr/">flickr</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/followthemoney/">followthemoney</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/foo/">foo</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/games/">Games</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/geocoding/">geocoding</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/gigapan/">gigapan</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/gis/">GIS</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/gis_data/">GIS data</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/google/">google</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/graphs/">graphs</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/gui/">GUI</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/history/">history</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/hoosgot/">hoosgot</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/html5/">html5</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/humour/">humour</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/hyperlinkedsociety/">hyperlinkedsociety</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/hyperlocal/">hyperlocal</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/icerocket/">icerocket</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/icwsm/">icwsm</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/icwsm2008/">icwsm2008</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/icwsm2011/">icwsm2011</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/image_exploration/">image exploration</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/infographics/">infographics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/informationextraction/">informationextraction</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/intelliseek/">intelliseek</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/ipad/">iPad</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/iphone/">iphone</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/katrina/">katrina</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/kdd/">kdd</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/klostu/">klostu</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/lijit/">lijit</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/linguistics/">linguistics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/linkrank/">linkrank</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/listing/">listing</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/liveearth/">liveearth</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/livejournal/">livejournal</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/livelabs/">livelabs</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/local/">local</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/longtail/">longtail</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/machinelearning/">machinelearning</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/marketingintelligence/">marketingIntelligence</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/mashups/">mashups</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/measuremap/">measuremap</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/memeorandum/">memeorandum</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/memetrackers/">memetrackers</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/microblogging/">microblogging</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/microformats/">microformats</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/microsoft/">microsoft</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/mobile/">mobile</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/music/">Music</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/nasa/">nasa</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/news/">news</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/nlp/">nlp</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/notfree/">notfree</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/nsa/">nsa</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/online_personal_media/">online personal media</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/opendata/">opendata</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/os/">OS</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/oscars/">oscars</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/pdf2008/">pdf2008</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/philosophy/">philosophy</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/photosynth/">photosynth</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/podcast/">podcast</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/podcasting/">podcasting</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/politics/">politics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/powerset/">powerset</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/predictions2006/">predictions2006</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/pronto/">pronto</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/psychology/">psychology</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/pubsub/">pubsub</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/ranking/">ranking</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/recovery2/">recovery2</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/reddit/">reddit</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/reverbiage/">reverbiage</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/rojo/">rojo</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/rss/">rss</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/science/">Science</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/search/">search</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/searchproblems/">search-problems</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/semanticweb/">semanticweb</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/sentiment_mining/">sentiment mining</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/site_statistics/">site statistics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/sketchup/">sketchup</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/social_software/">social software</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/socialmedia/">socialmedia</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/socialnetworks/">socialnetworks</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/software/">software</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/sotb/">sotb</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/space/">space</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/spam/">spam</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/sphere/">sphere</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/spinn3r/">spinn3r</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/spongecell/">spongecell</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/sports/">Sports</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/spotplex/">spotplex</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/statistics/">statistics</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/superbowl/">superbowl</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/swivel/">swivel</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tableunderstanding/">tableunderstanding</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tag/">tag</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tagging/">tagging</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tagnorati/">tagnorati</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tags/">tags</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tagtastic/">tagtastic</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/tailrank/">tailrank</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/technorati/">technorati</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/television/">Television</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/text_mining/">text mining</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/timeseries/">timeseries</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/topix/">topix</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/travel/">Travel</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/turn/">turn</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/twitter/">twitter</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/typepad/">typepad</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/umbria/">umbria</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/video/">video</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/vivisimo/">vivisimo</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/voip/">VoIP</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/web20/">web2.0</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/webapplications/">WebApplications</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/weblogs/">Weblogs</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/wikipedia/">wikipedia</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/wired/">wired</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/worldcup/">worldcup</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/yahoo/">yahoo</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/youtube/">youtube</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/zerotolerancesearch/">zerotolerancesearch</a></li>
+
+
+
+                        <li class="module-list-item"><a href="https://datamining.typepad.com/data_mining/zonetag/">zonetag</a></li>
+</span>
+		</ul>
+
+<a style="font-size:85%;display:none;" class="cat-more" href="https://datamining.typepad.com/data_mining/archives.html">See More</a>
+	</div>
+</div>
+<!-- powered by -->
+<div class="module-powered module">
+        <div class="module-content">
+
+                <a href="https://www.typepad.com/" title="Blog">Blog</a> powered by <a href="https://www.typepad.com/" title="TypePad">Typepad</a>
+
+        </div>
+</div>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+
+
+		</div>
+	</div>
+	
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+var extra_happy = Math.floor(1000000000 * Math.random());
+document.write('<img src="https://www.typepad.com/t/stats?blog_id=166725&amp;user_id=411832&amp;page=' + escape(location.href) + '&amp;referrer=' + escape(document.referrer) + '&amp;i=' + extra_happy + '" width="1" height="1" alt="" style="position: absolute; top: 0; left: 0;" />');
+// -->
+</script>
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-61737-1', 'auto');
+ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+<!-- Begin disqus Tag -->
+
+<!-- End disqus Tag -->
+</body>
+</html>
+
+<!-- ph=1 -->

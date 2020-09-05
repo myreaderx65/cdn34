@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="/template/eis_c_play/common/jqueryui.css" />
+<style type="text/css">
+body{ margin:0; padding:0; width:1000px;}
+#dialog *{font: 12px/1.5 '微軟正黑體','Microsoft Yahei','mingliu',Tahoma;}
+.ui-widget-header{background-color:#fff;border:0px #fff none}
+.ui-dialog-title{font-size:13px};
+.ui-dialog .ui-dialog-titlebar{padding:0px 0px 0px 0px;}
+.ui-widget-overlay {background-color:rgb(213, 32, 112);  opacity: .99;filter:Alpha(Opacity=99);}
+.ui-dialog-titlebar-close{visibility:hidden;}
+.ui-widget-header {border-color:#ffffff; background-color:#FFFFFF;}
+.ui-button-text-only .ui-button-text{ font-size:12px; }
+</style>
+<script src="/template/eis_c_play/common/jquery.js"></script>
+<script src="/template/eis_c_play/common/jquery-ui.js"></script>
+<script>
+	var name='playno1';
+	var value='playno1Cookie';
+	var actionpath='/';
+	var domain='.playno1.com';
+	var fire_cookie=getCookie(name);
+	var name2='playno1_referer';
+	var reuri=getCookie(name2);
+	var html;
+	function SetCookie(name,value,path,da){
+    	var Days = 1; //天
+		var Hour = 0; //時
+    	var exp  = new Date();  //Days*24*60*60*1000
+    	//exp.setTime(exp.getTime() + Days*Hour*60*60*1000);//設定3小時
+		//exp.setTime(exp.getTime() +60*5000);//設定5分鐘
+
+    	//document.cookie = name + "="+ escape (value) +";path=" + path +";domain=" +da+";expires="+exp.toGMTString();
+		document.cookie = name + "="+ escape (value) +";path=" + path +";domain="+da;
+	}
+
+	function getCookie(name){
+		var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
+		if(arr != null) return unescape(arr[2]); return null;
+	}
+
+	function delCookie(name){
+		var exp = new Date();
+		exp.setTime(exp.getTime() - 1);
+		var cval=getCookie(name);
+		if(cval!=null) document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+	}
+	
+	html='<table cellpadding="0" cellspacing="0" width="100%"><tr><td class="m_c" align="center"><h2 style="font-size:17px; margin-top:10px; margin-bottom:5px; color:#000000; font-weight:bold;">本站聲明</h2><span style="font-size:13px; line-height:30px; letter-spacing:0.15em; color:#ff0000;font-weight:bold;">本站資訊以及連結含有部分少兒不宜限制級內容<br />且本網站已依台灣網站內容分級規定處理<br />限18歲以上及願意接受者方可進入</span></td><td rowspan="2" class="m_r"><img src="static/image/diy/TICRF_r_show.jpg" width="85" height="136" style="margin-left:20px;" /></td></tr><tr><td>&nbsp;</td></tr><tr><td align="right"><div style="line-height:10px"><img src="./template/eis_c_play/img/logo.gif" width="85" /></div></td></tr></table>';
+	
+$(function() {
+	
+  $( "#dialog" ).dialog({
+		autoOpen: false,
+		height:330,
+		width:480,
+		modal:false,
+		closeOnEscape:false,
+		title:"警告",
+		bgiframe:false,	
+		stack:true,
+		diaggable:false,
+		resizable:false,
+		bgiframe:false,
+		buttons:{
+			'我已滿18歲 進入':function(){
+					$("#map-canvas-id div.ui-front").removeClass('ui-front');
+					SetCookie(name,value,actionpath,domain);
+					$("#dialog" ).dialog("close");
+					if(reuri!=null){
+						location.href=reuri;
+					}else{
+						
+						location.href='.';
+					}
+					//location.href='http://www.playno1.com/';
+			},
+			'我未滿18歲 離開':function(){
+				location.href='http://www.google.com/';
+			}
+		}
+  });
+  if(fire_cookie==null){
+  	$("#dialog").html(html);
+    $( "#dialog" ).dialog( "open" );
+   // return false;
+   }else{
+		//if(reuri!=null){
+		//	location.href='http://www.playno1.com'+reuri;
+		//}else{	
+			location.href='.';
+		//}
+	}
+});
+</script>
+</head>
+<body style=" background-color:rgb(213, 32, 112)">
+<div id="dialog"></div>
+</body>
+</html>
